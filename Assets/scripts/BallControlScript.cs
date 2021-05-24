@@ -16,7 +16,6 @@ public class BallControlScript : MonoBehaviour {
 
 	void Start () {
 		movement = GetComponent<AccelerometerMovement>();
-		Debug.Log("movement = " + movement);
 		winText.gameObject.SetActive(false);
 		lostText.gameObject.SetActive(false);
 
